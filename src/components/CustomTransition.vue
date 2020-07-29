@@ -39,7 +39,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .none-enter-active,
 .none-leave-active {
   transition-duration: 0s;

@@ -179,7 +179,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .vc-pane {
   flex-grow: 1;
   flex-shrink: 1;

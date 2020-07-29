@@ -35,7 +35,6 @@ import {
   head,
   last,
 } from '../utils/_';
-import '../styles/tailwind-lib.css';
 
 export default {
   name: 'Calendar',

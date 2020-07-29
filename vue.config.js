@@ -3,10 +3,8 @@ const path = require('path');
 //   .BundleAnalyzerPlugin;
 
 module.exports = {
-  css: {
-    extract: false,
-  },
   outputDir: 'lib',
+
   configureWebpack: {
     // Uncomment to run analyzer - it freezes builds r/n for some reason
     // plugins: [new BundleAnalyzerPlugin()],
@@ -16,5 +14,6 @@ module.exports = {
       },
     },
   },
-  lintOnSave: undefined,
+
+  lintOnSave: undefined
 };
