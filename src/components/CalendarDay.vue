@@ -470,7 +470,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .vc-day {
   position: relative;
   min-height: var(--day-min-height);

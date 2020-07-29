@@ -748,7 +748,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss">
 .vc-container {
   --slide-translate: 22px;
   --slide-duration: 0.15s;

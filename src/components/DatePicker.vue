@@ -425,7 +425,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 ::v-deep .vc-container {
   border: none;
 }

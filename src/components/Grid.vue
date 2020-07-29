@@ -216,7 +216,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .vc-grid-container {
   position: relative;
   flex-shrink: 1;

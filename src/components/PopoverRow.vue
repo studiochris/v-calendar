@@ -83,7 +83,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .vc-day-popover-row {
   --day-content-transition-time: 0.13s ease-in;
   display: flex;

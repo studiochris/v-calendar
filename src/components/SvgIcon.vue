@@ -60,7 +60,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .vc-svg-icon {
   display: inline-block;
   stroke: currentColor;
