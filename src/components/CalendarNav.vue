@@ -77,7 +77,7 @@ import { childMixin } from '../utils/mixins';
 import { head, last } from '../utils/_';
 import { pageForDate, onSpaceOrEnter } from '../utils/helpers';
 
-const _yearGroupCount = 12;
+const _yearGroupCount = 10;
 
 export default {
   name: 'CalendarNav',
