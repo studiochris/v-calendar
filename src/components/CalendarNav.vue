@@ -54,9 +54,10 @@
       @rollover="onItemsRollover"
     >
       <span
-        v-for="item in activeItems"
+        v-for="(item, index) in activeItems"
         :key="item.label"
         role="button"
+        :v-if="monthMode ? true : index <= 9"
         :aria-label="item.ariaLabel"
         :class="getItemClasses(item)"
         :tabindex="item.isDisabled ? undefined : item.isActive ? 0 : -1"
@@ -77,7 +78,7 @@ import { childMixin } from '../utils/mixins';
 import { head, last } from '../utils/_';
 import { pageForDate, onSpaceOrEnter } from '../utils/helpers';
 
-const _yearGroupCount = 10;
+const _yearGroupCount = 12;
 
 export default {
   name: 'CalendarNav',
